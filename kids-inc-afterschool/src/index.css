@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-main: #990000;
+  --color-brand-main-light: #B80000;
+  --color-brand-main-dark: #7A0000;
+  
+  --color-pastel-yellow: #FFF3B0;
+  --color-pastel-peach: #FFD6BA;
+  --color-pastel-blue: #BDE0FE;
+  --color-pastel-green: #D3F8E2;
+  --color-pastel-purple: #E8DFF5;
+  --color-pastel-pink: #FFC2D1;
+  
+  --color-paper: #F8FAFC;
+  --color-ink: #0F172A;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.text-display {
+  font-family: var(--font-display);
+}
