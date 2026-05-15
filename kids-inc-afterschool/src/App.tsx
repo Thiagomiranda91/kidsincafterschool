@@ -117,7 +117,7 @@ export default function App() {
           <div className="w-14 h-14 bg-white/60 rounded-2xl flex items-center justify-center mb-4 shadow-sm">
             <Clock className="w-8 h-8 text-blue-700" />
           </div>
-          <h3 className="text-display text-2xl font-bold mb-2">Open Until 6:00 PM</h3>
+          <h3 className="text-display text-2xl font-bold mb-2">Open Until 6:30 PM</h3>
           <p className="text-blue-900/80 font-medium leading-tight">Flexible hours offering complete peace of mind for working parents.</p>
         </motion.div>
 
